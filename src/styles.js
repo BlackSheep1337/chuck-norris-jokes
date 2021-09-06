@@ -8,7 +8,7 @@ export const Main = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   .header {
     img { 
       width: 500px;
@@ -32,7 +32,21 @@ export const Main = styled.section`
   }
 
   .jokes {
+    width: 500px;
+    text-align: center;
+  }
+  .joke {
     margin-top: 30px;
   }
-
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    button {
+      font-size: 35px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+  }
 `;
