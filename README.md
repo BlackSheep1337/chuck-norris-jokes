@@ -14,4 +14,7 @@ Foi utilizado neste aplicativo tecnologias como React, Styled-components, Restfu
 
 segue um rascunho feito em excalidraw do projeto.
 
+Site do projeto: https://alexandre-pereira-chuck-norris.netlify.app/
+
+
 ![chuck-norrys](https://user-images.githubusercontent.com/78481908/132166711-c3579c8c-f3eb-4bde-84aa-da4b71d65463.png)
