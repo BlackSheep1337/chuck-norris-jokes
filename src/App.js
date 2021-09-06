@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Jokes from './Jokes';
 import ChuckNorris from './chuck-norris-bandeira-dos-eua-2392c.webp';
-import { Main, Form } from './styles';
+import { Main } from './styles';
 
 export default function App() {
 
@@ -23,18 +23,19 @@ export default function App() {
 
   return (
     <Main>
-      <Form>
       <div className="header">
         <h1>chuck norris jokes</h1>
-        <img src={ ChuckNorris } alt="Chuck Norris" />
+        <img src={ ChuckNorris } alt="chuck norris" />
       </div>
-        <div className="control">
-          <input type="text" />
-          <button>
-            gerate a joke
-          </button>
+      <form>
+        <div className="input-fild">
+          <h3>search for a word</h3>
+          <input id="word" type="text" />
         </div>
-      </Form>
+        <button className="btn-primary">
+          gerate joke
+        </button>
+      </form>
       <div className="jokes">
         <Jokes />
       </div>
